@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   padding: 32px 40px;
 }
+
 main {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
@@ -33,6 +34,7 @@ main {
   align-items: flex-start;
   gap: 12px;
 }
+
 h2 {
   margin: 0;
   font-size: clamp(4rem, 10vw, 7rem);
@@ -45,16 +47,12 @@ h2 {
 
 .content > p {
   margin: 0;
-  color: #999;
+  color: hwb(0 29% 68%);
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   line-height: 1.4;
 }
-h2 {
-color :#000
-}
-.content p { color:#726868}
 
 #interests {
   margin-top: 32px;
@@ -67,7 +65,7 @@ color :#000
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #aaa;
+  color: hsl(0, 33%, 4%);
 }
 
 #interests ul {
@@ -84,7 +82,7 @@ color :#000
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #fff;
+  background: hwb(314 33% 29%);
   border: 1px solid #ddd;
   border-radius: 100px;
   transition:
